@@ -1,0 +1,8 @@
+github.com/coalaura/edgingo v1.0.0 h1:96a2QwuD7ZbbvldL2ytqbNLzgj8GteTV5JTG4eMQLag=
+github.com/coalaura/edgingo v1.0.0/go.mod h1:XIJfxOTeOW3LF28oxD6RiAfKCM/2bEPoNt9fecAJx0w=
+github.com/ebitengine/purego v0.8.1 h1:sdRKd6plj7KYW33EH5As6YKfe8m9zbN9JMrOjNVF/BE=
+github.com/ebitengine/purego v0.8.1/go.mod h1:iIjxzd6CiRiOG0UyXP+V1+jWqUXVjPKLAI0mRfJZTmQ=
+github.com/gen2brain/webp v0.5.2 h1:aYdjbU/2L98m+bqUdkYMOIY93YC+EN3HuZLMaqgMD9U=
+github.com/gen2brain/webp v0.5.2/go.mod h1:Nb3xO5sy6MeUAHhru9H3GT7nlOQO5dKRNNlE92CZrJw=
+github.com/tetratelabs/wazero v1.8.1 h1:NrcgVbWfkWvVc4UtT4LRLDf91PsOzDzefMdwhLfA550=
+github.com/tetratelabs/wazero v1.8.1/go.mod h1:yAI0XTsMBhREkM/YDAK/zNou3GoiAce1P6+rp/wQhjs=
