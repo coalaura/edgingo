@@ -19,6 +19,8 @@ go get github.com/coalaura/edgingo
 
 ## Usage
 
+### As a Library
+
 ```go
 import "github.com/coalaura/edgingo"
 
@@ -45,6 +47,30 @@ result = edgingo.RemoveAllEdges(rgba, true)
 ```
 
 The second parameter `aggressive` determines whether to use a 10% threshold when detecting edges. When true, it will ignore checking the middle 80% of pixels along each edge.
+
+### Command Line Tool
+
+The library includes a command-line tool that can process images directly. It supports PNG, JPEG, and WebP formats.
+
+Installation:
+```bash
+go install github.com/coalaura/edgingo/cmd
+```
+
+Usage:
+```bash
+edgingo <input-image> <output-image>
+```
+
+The CLI tool automatically:
+- Uses aggressive mode for better edge detection
+- Detects the output format based on file extension (.png, .jpg/.jpeg, or .webp)
+- Preserves quality (90% for JPEG, lossless for WebP)
+
+Example:
+```bash
+edgingo input.png output.png
+```
 
 ## Example
 Example of removing all edges from an image with aggressive mode enabled.
