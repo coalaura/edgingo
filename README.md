@@ -14,13 +14,13 @@ Edgingo is a Go library for detecting and removing solid-colored edges/borders f
 ## Installation
 
 ```go
-go get github.com/yourusername/edgingo
+go get github.com/coalaura/edgingo
 ```
 
 ## Usage
 
 ```go
-import "github.com/yourusername/edgingo"
+import "github.com/coalaura/edgingo"
 
 // Load your image
 img, _ := png.Decode(file)
